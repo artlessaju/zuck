@@ -1,0 +1,167 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Merriweather', serif;
+    
+    }
+
+
+h1{
+
+color: antiquewhite;
+font-family: 'Merriweather', serif;
+text-align: center;
+
+
+}
+
+header{
+
+    background-color:rgb(65, 44, 184);
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+
+    background-color: rgb(65, 44, 184);
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+ }
+
+
+ nav ul{
+
+    display: flex;
+
+
+}
+
+nav ul li a{
+
+display: flex;
+margin: 30px;
+text-decoration: none;
+color: beige;
+font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover{
+
+    color: aqua;
+}
+
+video{
+
+    width: 100%;
+    }
+
+    .overlay{
+
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        color:blue;
+        text-shadow: 3px 4px 6px black;
+        font-size: 400%;
+    }
+
+    .pic{
+
+        display: flex;
+        
+        }
+        
+        
+        .pic p{
+        
+        text-align: justify;
+        margin: 30px;
+        color: antiquewhite;
+        
+        
+        
+        
+        }
+        
+        .pic img{
+        
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 50px;
+        
+    
+        }
+
+
+        .gallery{
+
+            margin-left: 200px;
+          
+          
+          }
+          .gallery img{
+          width: 300px;
+          height: 300px;
+          margin: 20px;
+          
+          }
+          
+          .gallery img:hover{
+          
+          box-shadow: 4px 5px 6px 4px blue;
+          
+          
+          }
+          
+          .box img{
+
+            width: 100%;
+            }
+            
+            .box{
+            width: 300px;
+            height: 500px;
+            margin: 20px;
+    
+            background: linear-gradient(to top,rgb(88, 88, 83) 50%,rgb(11, 11, 11) 50%);
+            background-size: 100% 200%;
+            transition: all 0.8s;
+            margin-left: 150px;
+            }
+            
+            .box:hover{
+            background-position: left bottom;
+            border: none;
+            box-shadow: 4px 3px 5px 5px red;
+            
+            }
+            
+            .row{
+            
+            display: flex;
+            
+            }
+            
+            .box h4{
+            
+            text-align: center;
+            color: yellow;
+            
+            
+            }
+            
+            .box p{
+            
+            text-align: justify;
+            margin: 20px;
+            color: beige;
+            
+            }
